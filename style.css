@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+button{
+  position: absolute;
+  bottom: 300px;
+}
+#say-hello{
+  position: absolute;
+  bottom: 350px;
+}
+#make-robot-happy{
+position: absolute;
+left: 7px;
+bottom: 300px;
+}
+#make-robot-mad{
+position: absolute;
+bottom: 250px;
+}
+#say-sorry{
+  position: absolute;
+  left: 150px;
+  bottom: 250px;
+  margin-right: 20px;
+  background-color: #FF0032;
+  font-weight: 600;
+  visibility: hidden;
+}
+#say-goodbye{
+position: absolute;
+bottom: 200px;
+}
+
+
+#robot-talking-box{
+  background-color: white;
+  height: 125px;
+  width: 150px;
+  position: absolute;
+  left: 110px;
+  top: 50px;
+  font-family: 'Press Start 2P';
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 5px;
+}
+
+
+
+
+/* ================ ROBOT =========================*/
+div {
+  border: solid black 1px;
+  background-color: grey;
+}
+#antena-circle-left {
+border-radius: 50%;
+height: 10px;
+width:10px;
+position: absolute;
+left: 16px;
+}
+#antena-circle-right {
+border-radius: 50%;
+height: 10px;
+width:10px;
+position: absolute;
+left: 45px;
+top: 9px;
+}
+#antena-stick-left{
+width: 1px;
+height: 20px;
+position: absolute;
+left: 21px;
+top: 18px;
+}
+#antena-stick-right{
+width: 1px;
+height: 19px;
+position: absolute;
+left: 49.2px;
+top: 19px;
+}
+
+#antena-base-left{
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 40px;
+  left: 17px;
+}
+#antena-base-right{
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+#face {
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 50px;
+}
+#eye-left{
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  left: 15px;
+}
+#eye-right{
+  border-radius: 50%;
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  left: 43px;
+}
+#pupila-left{
+border-radius: 50%;
+height: 10px;
+width: 10px;
+background-color: black;
+position: absolute;
+top: 59px;
+left: 19px;
+}
+#pupila-right{
+border-radius: 50%;
+height: 10px;
+width: 10px;
+background-color: black;
+position: absolute;
+top: 59px;
+left: 46px;
+}
+#mouth{
+  width: 30px;
+  height: 8px;
+  background-color: yellow;
+  position: absolute;
+  top: 86px;
+  left: 22px;
+  display: grid;
+  grid-template-columns: repeat(5, 6.5px);
+  grid-template-rows: repeat(2, 5px);
+  justify-items: stretch;
+  align-items: stretch;
+}
+#mouth div{
+  place-self: stretch;
+  border: solid 0.02px black;
+  background-color: #FBFF7E;
+}
+#oreja-left{
+  width: 4px;
+  height: 10px;
+  position: absolute;
+  top: 65px;
+  left: 2px;
+}
+
+#oreja-right{
+  width: 4px;
+  height: 10px;
+  position: absolute;
+  top: 65px;
+  left: 70px;
+}
+#neck{
+  height: 12px;
+  width: 4px;
+  position: absolute;
+  top: 102px;
+  left: 35px;
+}
+#body{
+  height: 65px;
+  width: 50px;
+  position: absolute;
+  top: 115px;
+  left: 13px;
+}
+#arm-left{
+  height: 50px;
+  width: 5px;
+  position: absolute;
+  top: 117px;
+}
+#arm-right{
+  height: 50px;
+  width: 5px;
+  position: absolute;
+  top: 117px;
+  left: 62px;
+}
+#leg-left{
+  height: 50px;
+  width: 7px;
+  position: absolute;
+  top: 181.5px;
+  left: 25px;
+}
+#leg-right{
+  height: 50px;
+  width: 7px;
+  position: absolute;
+  top: 181.5px;
+  left: 40px;
+}
+@media only screen and (max-height: 599px){
+
+  #say-hello{
+  position: absolute;
+  bottom: 160px;
+}
+#make-robot-happy{
+position: absolute;
+left: 7px;
+bottom: 110px;
+}
+#make-robot-mad{
+position: absolute;
+bottom: 65px;
+}
+#say-sorry{
+  position: absolute;
+  left: 200px;
+  bottom: 65px;
+  margin-right: 7px;
+  background-color: #FF0032;
+  font-weight: 600;
+  visibility: hidden;
+}
+#say-goodbye{
+position: absolute;
+bottom: 20px;
+}
+
+
+}
