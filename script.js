@@ -187,6 +187,8 @@ document.getElementById('arm-right').style.top = '117px';
 }
 document.getElementById('body').addEventListener('mousedown', jump);
 document.getElementById('body').addEventListener('mouseup', noJump);
+document.getElementById('body').addEventListener('touchstart', jump);
+document.getElementById('body').addEventListener('touchend', noJump);
 
 // ========== MAD ==================
 
